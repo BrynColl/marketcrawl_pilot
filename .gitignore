@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+raw_html/
+httpcache/
+pages.jsonl
+company_docs.parquet

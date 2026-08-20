@@ -13,3 +13,4 @@ class PageItem(scrapy.Item):
     clean_text = scrapy.Field()
     word_count = scrapy.Field()
     content_hash = scrapy.Field()
+    _raw_html = scrapy.Field()
