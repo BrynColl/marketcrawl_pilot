@@ -26,8 +26,8 @@ with an email address you are willing to expose in the crawler User-Agent.
 
 `companies.tsv` contains the 20 companies supplied for the pilot.
 
-MyParticipants appears twice (company IDs 5 and 7). The spider normalizes the
-domain and crawls it once, while retaining both IDs/names in the output.
+Company IDs and domains are expected to be unique; run `python validate_input.py`
+to check for duplicate normalized domains before crawling.
 
 ## 4. Run the crawl
 
